@@ -1,0 +1,296 @@
+{
+  "id": "sigf/supercraft-superhot-five-nights-at-freddy-s-mod-8",
+  "version": "1.0.0",
+  "name": "SUPERCRAFT, mod 8: SUPERHOT × Five Nights at Freddy's",
+  "tagline": "SUPERHOT, mixed with a new game every time. Time only moves when you move, and each mod adds a funny twist the AI comes up with. This time, mix in Five Nights at Freddy's with a funny twist of your own.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "superhot",
+      "role": "host",
+      "engine": "SUPERHOT (itch build, Unity 2020.3.24f1 Mono, 64-bit, game exe SH.exe) + BepInEx 5.4.23.2 x64 C# plugin (net472)"
+    },
+    {
+      "game": "fivenightsatfreddys",
+      "role": "guest",
+      "label": "Five Nights at Freddy's",
+      "canonical": false
+    }
+  ],
+  "requires": [
+    {
+      "id": "bepinex"
+    }
+  ],
+  "install": [
+    {
+      "game": "superhot",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "supercraft-superhot-five-nights-at-freddy-s-mod-8.zip",
+          "dst": "{game}",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/arcade.png",
+              "sha256": "50c5a7c6d018271f3d6c1043372b5387c9d9472848a97dc415b285961ba3df95"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/balloon.png",
+              "sha256": "db6f0d3a93d347a5508d80e88b07b72f918b31a63ca6910cf03343258aee6af9"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/cake.png",
+              "sha256": "f6e95362153dc4991d180d2b6f0e6b2d0de4577d2738d45ae6d059e608a26897"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/chair.png",
+              "sha256": "b6a5ce19b3e23d0b4e61cb2c71258842f3fa8aa501790785550a3cfba6d186b7"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/cupcake.png",
+              "sha256": "ffbde0a84ab0dfd8ad11f3e2f49d59193e839fe2de1ca335bf48a6f9a502c1c2"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/desk_fan.png",
+              "sha256": "3faf944d969109d708c194b103b51cdaa7a442c63c16363f92ffd9cc4e9ab1d6"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/desk.png",
+              "sha256": "7d070ae350a1301538a3bbc520c77d415ef64d044a5113b396577f3380143042"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/head_bear.png",
+              "sha256": "d9ee042e1853e8e370d509371acc033fe8c695c731b8020ae90fa95700c6f9bf"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/head_bunny.png",
+              "sha256": "ee13ceda5b155a4ae34db5c98e422b12c0af341ce59ea4a982d1c9d239bbfd87"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/head_chicken.png",
+              "sha256": "eebce28dffc15e8f1d2102b36d6b1816c08dec0703087c53343d7499e7334765"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/head_fox.png",
+              "sha256": "6e19603c1f587fd8cde7963fa19ee6ab2683bdfc706d9b20e4de5ed01e2123fc"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/lamp.png",
+              "sha256": "1cc9559bf8a207589ce9fe2dd745a66e458ee28ad0253d434153d9cf5df38f0d"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/monitor.png",
+              "sha256": "b421c0e19f693b1bedd691dde820fa580503e471066b160465c6b23a94681e87"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/office_chair.png",
+              "sha256": "f3c97b37d55dfb48ba04329ece366a158d9d373b19e8356d84011da76907b11b"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/party_hat.png",
+              "sha256": "ae129615c773abd8993028147516ef4ec1cdc1eb7ac74ee28816c501985274c2"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/pizza_slice.png",
+              "sha256": "24cb447362c2013918bfdf4067fe0dd2a86fb50595fb2c460a1704a30edb1533"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/pizza.png",
+              "sha256": "9a05bb538d6923de13228c82a9b55df784a26330bf3b7696473f15ca7a1ae023"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/plate.png",
+              "sha256": "fee2f5358940f2786cdc1a13980d6e2a5c33bf5d25c2655865044f41a5ad69e1"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/present.png",
+              "sha256": "f2bf644093c4077b8105f20f44fdb7bd281af8d530d54132a16fca2fa71279b2"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/shelf.png",
+              "sha256": "941aee32be42531eb2fad2863d772521cbd7e9938e8c6433a91a1e2bafaa52a5"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/soda.png",
+              "sha256": "b7f3263298fed18ab2ac82b085b2379e45698374862cbd70143daf224f2740d7"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/speaker.png",
+              "sha256": "9e78829051b153000500d6cf4616054761bc47d4f4913408e566cf2a54dca03d"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/table.png",
+              "sha256": "bc221aca726b5f29903e5a37f6554c420429311ef347fd4652181c09aec5ae5f"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/trash_can.png",
+              "sha256": "af7b9ec3942471ecc9435ccc0b017c288ccf410c88289a39fc34c827465198e5"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/buzz_light.wav",
+              "sha256": "0cd210c9fc91095adc2f601392c7432c961bbae58fb5f8424b70d95f77067ae2"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/chime.wav",
+              "sha256": "aa7deb892a9ac0beac2df82c61ff02ecac8362f1dada0b435d3e0d95c56a8090"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/clank.wav",
+              "sha256": "273d81ca39569b478bb6644a8473509c7b3c610527b48a72271abcf24e0d4e8e"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/confetti_pop.wav",
+              "sha256": "ffd7535529546d98f2df37ee8963df23b4333aedb023d2018c46651fb84fc234"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/door_slam.wav",
+              "sha256": "ca74f78315462dc7a72200a29cfe0d917a2616b7e2c1d29e49de431ccbd84a90"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/fan_hum.wav",
+              "sha256": "e3fe7290cdb012ad4398ccefc631ca45f2f1f8e1e48815a117c5d0187cf98cb2"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/footstep_metal.wav",
+              "sha256": "0b911100ad01138d1abb0287929b4ec07ba76dc6ba8f1d0d6021d8f25e3e8baf"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/kids_yay.wav",
+              "sha256": "e7c2b6e088f219a187e4e3ce79046858ce2f1a3229fb8bd71446d6ce406cbd3c"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/laugh.wav",
+              "sha256": "f4e70da539bbf6d38d6909277ed4629b3dbb40784cd04c7588cf668bf29b5e17"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/monitor_flip.wav",
+              "sha256": "1c5ec0b97cf3b87f25485c4805ffa8af7ef504f095f356fb51c6ad3118d6d7f5"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/music_box.wav",
+              "sha256": "d4e1bb2f3bcc9d61e268c966c64d9f322a06dd3429db305eac13469a7516af82"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/party_horn.wav",
+              "sha256": "f52ee1c3cbae5f95532184da49ff6604543a0e71a7c962cd1d737d0157a3f95e"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/phone_ring.wav",
+              "sha256": "8b8f2c3084e609fa5d1161cbfcdbbb79556b24668776e0147b21c259f9d391f4"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/power_down.wav",
+              "sha256": "19127efeeaa73e568e35621c641cae4cb7f3023113e5b35f281c7b0821e89cd4"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/scream.wav",
+              "sha256": "ac0a2af891143678004a5015fdcb6948b91ac1c50a1d181653578f56f379fef0"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/servo.wav",
+              "sha256": "9c1ec9d1d81f3c9b70d42d76dde5d831f3d3eafd0e2256ba2b89aadc90e9ee5b"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/sparks.wav",
+              "sha256": "9269a0f88d98d6f6786e095803f79ea981679c0fb57b03d6da75f39ae0a08a2e"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/splat.wav",
+              "sha256": "80f6091178316b0a5da84ee5528c49327d3f67004c7b97410db8c822973ccd1e"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/static.wav",
+              "sha256": "2d01e510517912701b00f9f2e0809b56a1e8b2739a0e08542cd2061ed0cd74b5"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tex/carpet.png",
+              "sha256": "11edbb786016999a54c9996438a5df6ebdabfd5e59f3200a38cfbdb7bfc0fcd7"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tex/ceiling.png",
+              "sha256": "71134c70c2a0517222d4ac4187258fb5483ebfa181d5291d8aba2273379ef407"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tex/curtain_purple.png",
+              "sha256": "1a72eb5be5817169094bbb26cefab1e0234fe0dedbdab0dca4bd3a7d986160b5"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tex/curtain_red.png",
+              "sha256": "03a9b7f90ed5fd2a17ce3da4cc67cc7c8c3655bdf4224ade6510aeffc603b5c5"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tex/floor_checker.png",
+              "sha256": "4e8981cf1f3041388103a85f7485be52e7f2e56a4572d25852270b2b4b564f6d"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tex/metal_door.png",
+              "sha256": "1971c83a96cd21a3a12a9696e86adcf68fba92dbede77bce515325f86345a2df"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tex/stage_wood.png",
+              "sha256": "e54e06394228236578dc4b78cf518c6b954d726ced1ba6fcd6a0fc8ce495a926"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tex/wall_lower.png",
+              "sha256": "974b2ff8525ba2c6123312537c01e78f4b94a03cea507d7ca04167fff154b42f"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tex/wall_paint.png",
+              "sha256": "be10e90c13216ab303a242e72ef7ea5cf5b3a178625645382abf2c668eee7d05"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/poster.png",
+              "sha256": "c6b6d3c56776580cb70727d47eee8c751e4996ebc55536a58d4cd679edc50d35"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/splat.png",
+              "sha256": "ac7cdef7c7ca4b00f7f17f05c45d167427ace49da2e2c1151adcc68d2dbb01c5"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.dll",
+              "sha256": "dc4aa65d8ad96c74256909b86b3eae06ae62bb39c2208945791487c23bee9694"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.pdb",
+              "sha256": "c11f82177e63a5d27b27312320b7c437df815d26c10eda7afd58bbc87117fc04"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/supercraft-superhot-five-nights-at-freddy-s-mod-8/releases/download/v1.0.0/supercraft-superhot-five-nights-at-freddy-s-mod-8.zip",
+          "sha256": "adc7ae1e09f3e2865fb552ea4ae2b256e521200745aaf16b96386805675b9cd5",
+          "size": 25222047
+        }
+      ],
+      "loader": "bepinex"
+    }
+  ],
+  "launch": [
+    {
+      "game": "superhot",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "supercraft-superhot-five-nights-at-freddy-s-mod-8.zip",
+      "url": "https://github.com/SIGFAI/supercraft-superhot-five-nights-at-freddy-s-mod-8/releases/download/v1.0.0/supercraft-superhot-five-nights-at-freddy-s-mod-8.zip",
+      "sha256": "adc7ae1e09f3e2865fb552ea4ae2b256e521200745aaf16b96386805675b9cd5",
+      "size": 25222047
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/supercraft-superhot-five-nights-at-freddy-s-mod-8",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SUPERCRAFT"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "superhot",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:27:18.756Z"
+}
